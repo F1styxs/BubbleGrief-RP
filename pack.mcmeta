@@ -1,0 +1,29 @@
+{
+  "pack": {
+    "pack_format": 46,
+    "supported_formats": {
+      "min_inclusive": 42,
+      "max_inclusive": 9999
+    },
+    "description": "§6BubbleGrief\n§fplay.bubblegrief.ru"
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "1_21_6",
+        "formats": {
+          "min_inclusive": 63,
+          "max_inclusive": 9999
+        },
+        "min_format": 63,
+        "max_format": 9999
+      }
+    ]
+  },
+  "sodium": {
+    "ignored_shaders": [
+      "rendertype_entity_translucent.fsh",
+      "rendertype_entity_translucent.vsh"
+    ]
+  }
+}

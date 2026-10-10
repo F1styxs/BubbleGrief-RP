@@ -1,0 +1,62 @@
+{
+  "rkilleffect.dark_matter": {
+    "sounds": [
+      "bubblekilleffects:astral_projection"
+    ]
+  },
+  "rkilleffect.time_warp": {
+    "sounds": [
+      "bubblekilleffects:time_warp"
+    ]
+  },
+  "rkilleffect.void_collapse": {
+    "sounds": [
+      "ec_killeffects:v2/void_collapse"
+    ]
+  },
+  "bubblekilleffects.dark_matter": {
+    "sounds": [
+      "bubblekilleffects:astral_projection"
+    ]
+  },
+  "bubblekilleffects.time_warp": {
+    "sounds": [
+      "bubblekilleffects:time_warp"
+    ]
+  },
+  "bubblekilleffects.void_collapse": {
+    "sounds": [
+      "ec_killeffects:v2/void_collapse"
+    ]
+  },
+  "kill_fx.astral_projection": {
+    "sounds": [
+      "ec_killeffects:v1/astral_projection"
+    ]
+  },
+  "kill_fx.time_warp": {
+    "sounds": [
+      "ec_killeffects:v3/time_warp"
+    ]
+  },
+  "kill_fx.void_collapse": {
+    "sounds": [
+      "ec_killeffects:v2/void_collapse"
+    ]
+  },
+  "ec_killeffects_sfx2:kill_fx.void_collapse": {
+    "sounds": [
+      "ec_killeffects:v2/void_collapse"
+    ]
+  },
+  "ec_killeffects_sfx3:kill_fx.time_warp": {
+    "sounds": [
+      "ec_killeffects:v3/time_warp"
+    ]
+  },
+  "ec_killeffects_sfx1:kill_fx.astral_projection": {
+    "sounds": [
+      "ec_killeffects:v1/astral_projection"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "sources": [
+    {
+      "prefix": "entity/",
+      "source": "entity",
+      "type": "directory"
+    },
+    {
+      "pattern": {
+        "namespace": "minecraft",
+        "path": "entity/fishing_hook"
+      },
+      "type": "filter"
+    },
+    {
+      "type": "directory",
+      "source": "archangel_set_texture",
+      "prefix": "archangel_set_texture/"
+    },
+    {
+      "type": "single",
+      "resource": "modelengine:entity/astral_projection",
+      "sprite": "modelengine:entity/astral_projection"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:entity/astral_projection",
+      "sprite": "minecraft:entity/astral_projection"
+    },
+    {
+      "type": "single",
+      "resource": "modelengine:entity/body_grey",
+      "sprite": "modelengine:entity/body_grey"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:entity/body_grey",
+      "sprite": "minecraft:entity/body_grey"
+    },
+    {
+      "type": "single",
+      "resource": "modelengine:entity/colorful_explosion_ef",
+      "sprite": "modelengine:entity/colorful_explosion_ef"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:entity/colorful_explosion_ef",
+      "sprite": "minecraft:entity/colorful_explosion_ef"
+    },
+    {
+      "type": "single",
+      "resource": "modelengine:entity/time_warp",
+      "sprite": "modelengine:entity/time_warp"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:entity/time_warp",
+      "sprite": "minecraft:entity/time_warp"
+    },
+    {
+      "type": "single",
+      "resource": "modelengine:entity/void_collapse",
+      "sprite": "modelengine:entity/void_collapse"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:entity/void_collapse",
+      "sprite": "minecraft:entity/void_collapse"
+    }
+  ]
+}

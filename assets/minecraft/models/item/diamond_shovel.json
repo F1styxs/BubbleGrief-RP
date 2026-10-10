@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/diamond_shovel"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 121001
+      },
+      "model": "minecraft:item/mace"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 121001.0
+      },
+      "model": "minecraft:item/mace"
+    }
+  ]
+}
