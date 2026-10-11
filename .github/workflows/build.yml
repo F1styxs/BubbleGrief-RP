@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Zip Resource Pack
         run: |
@@ -30,3 +32,15 @@ jobs:
           prerelease: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish Direct Raw Zip
+        run: |
+          cp BubbleGrief.zip /tmp/BubbleGrief.zip
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan pack
+          git rm -rf .
+          mv /tmp/BubbleGrief.zip ./BubbleGrief.zip
+          git add BubbleGrief.zip
+          git commit -m "Update BubbleGrief.zip"
+          git push origin pack --force
