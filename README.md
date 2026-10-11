@@ -2,7 +2,12 @@
 
 Официальный ресурспак сервера BubbleGrief (`play.bubblegrief.ru`).
 
-## 📥 Постоянная прямая ссылка для скачивания:
+## 📥 Постоянная прямая ссылка для скачивания (БЕЗ редиректов):
+```text
+https://raw.githubusercontent.com/F1styxs/BubbleGrief-RP/pack/BubbleGrief.zip
+```
+
+### Альтернативная ссылка (через GitHub Releases):
 ```text
 https://github.com/F1styxs/BubbleGrief-RP/releases/latest/download/BubbleGrief.zip
 ```
