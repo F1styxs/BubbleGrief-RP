@@ -3,9 +3,11 @@
     "pack_format": 46,
     "supported_formats": {
       "min_inclusive": 42,
-      "max_inclusive": 9999
+      "max_inclusive": 99
     },
-    "description": "§6BubbleGrief\n§fplay.bubblegrief.ru"
+    "description": "§6BubbleGrief\n§fplay.bubblegrief.ru",
+    "min_format": 42,
+    "max_format": 99
   },
   "overlays": {
     "entries": [
@@ -13,10 +15,10 @@
         "directory": "1_21_6",
         "formats": {
           "min_inclusive": 63,
-          "max_inclusive": 9999
+          "max_inclusive": 99
         },
         "min_format": 63,
-        "max_format": 9999
+        "max_format": 99
       }
     ]
   },
